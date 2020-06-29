@@ -1,0 +1,27 @@
+server:
+  port: 9992
+
+spring:
+  application:
+    name: cloud-storkmarket-oauth
+  datasource:
+    url: jdbc:mysql:39.101.188.99:39500/emart?characterEncoding=utf8&useUnicode=true&useSSL=false&serverTimezone=UTC
+    username: emartX
+    password: JDSAKLnjd782dsa
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 39.101.188.99
+    port: 39490
+    password:
+    database: 0
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9990/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,loggers
