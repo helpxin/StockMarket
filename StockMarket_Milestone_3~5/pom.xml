@@ -13,7 +13,6 @@
         <module>StockMarket-member</module>
         <module>StockMarket-server</module>
         <module>StockMarket-gateway</module>
-        <module>StockMarket-email</module>
     </modules>
     <packaging>pom</packaging>
     <description>e-shop购物商城</description>
