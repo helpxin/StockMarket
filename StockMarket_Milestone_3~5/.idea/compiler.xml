@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eshop-server" />
+        <module name="StockMarket-gateway" />
+        <module name="eshop-gateway" />
+        <module name="StockMarket-common" />
+        <module name="eshop-auth" />
+        <module name="eshop-email" />
+        <module name="eshop-common" />
+        <module name="StockMarket-server" />
+        <module name="StockMarket-member" />
+        <module name="StockMarket-auth" />
+        <module name="StockMarket-email" />
+        <module name="eshop-member" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="StockMarket-auth" options="-parameters" />
+      <module name="StockMarket-common" options="-parameters" />
+      <module name="StockMarket-email" options="-parameters" />
+      <module name="StockMarket-gateway" options="-parameters" />
+      <module name="StockMarket-member" options="-parameters" />
+      <module name="StockMarket-server" options="-parameters" />
+    </option>
+  </component>
+</project>
